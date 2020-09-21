@@ -11,9 +11,6 @@ use warnings;
 
 our $scenario = {
     summary => 'Measure startup overhead of Z',
-    modules => {
-        'Z' => {},
-    },
     code_startup => 1,
     participants => [
         {code_template=>'use Z;'},
