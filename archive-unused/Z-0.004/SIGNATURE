@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.83.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA256 a802d8d7a8c4f38f97cca547b0c2beaae43f293f609e005d0babb9ccae9c4b4a COPYRIGHT
+SHA256 7977c02e031153dc91d6db9d2e803671d586e59bca2c5c3dc6211f29c04d92d6 CREDITS
+SHA256 6ee43fd9178080b41d9240db49197e69f3807cf72be006a5b1c8a14b58b50f03 Changes
+SHA256 40cc066118c47af6e71bb64b21101fb9d671569e205602b115a58902b1a44955 INSTALL
+SHA256 1fb7395e76eabf94c421912d7d0a4f7fa745d49e1acb76b222c21d605b66bd25 LICENSE
+SHA256 a9074396bf6471e5af2bc3d2a3cb4595ce8400c1d87e331b286938296ff48da3 MANIFEST
+SHA256 b74e779e2fce4676a922fc53fa7188a74f6a107c8af03d621b625f3caa43f627 META.json
+SHA256 3e2bcac7c626bfcfb22c4b33bf69967282ab1b705e92f745d356b4b0cc54cee4 META.yml
+SHA256 fd471bc5bdf5c885946d5c234510f47f584fecd82dd9c9a7ab52557cbc013e85 Makefile.PL
+SHA256 cc01c5baa78d6189107af890ab8604d8905e62a2152f7551b032ad7948e5e75f README
+SHA256 eaff59966c45a924f21ba3926ac3f4e8118391568d3dee542c86585abc364a7c dist.ini
+SHA256 33fb1dd6ccef17ccd7be74ada9cdeca6b7c681f80581de4d013a5ba61d8c2b4f doap.ttl
+SHA256 d4687e7ac041178bdb36fa1f00c01093a4f91eac619d52409ed2412d9b49a631 examples/angular-sizes.pl
+SHA256 266623c32b907e5cefdacd5f833937421d9439164bbebf4ea903e98bb14fd2b2 lib/Z.pm
+SHA256 578183d6b728697f6e434d200398d78f0fb0813f07293eb33652decb37f03285 t/01basic.t
+-----BEGIN PGP SIGNATURE-----
+
+iF0EARECAB0WIQRVJKj/4+s6z4WzNujOv4Eoaip9OQUCX2el2gAKCRDOv4Eoaip9
+OYDSAKCePmd8HhEFiCsYOhjbkOa0VFPzUQCgnA4g+AwDCfKqkiACGnKCiGAZxDI=
+=HeR/
+-----END PGP SIGNATURE-----
