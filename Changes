@@ -1,3 +1,9 @@
+0.002   2020-10-08  Released-By: PERLANCAR; Urgency: medium
+
+	- Add startup overhead benchmarks for some related modules: Zydeco,
+	  Zydeco::Lite, MooX::Press, Moo, et al.
+
+
 0.001   2020-09-21  Released-By: PERLANCAR
 
         - First release.
