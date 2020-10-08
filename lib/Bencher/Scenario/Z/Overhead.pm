@@ -17,6 +17,17 @@ our $scenario = {
         {code_template=>'use Z -modern;'},
         {code_template=>'use Z -compat;'},
         {code_template=>'use Z -detect;'},
+
+        {code_template=>'use Type::Tiny;'},
+        {code_template=>'use Types::Standard;'},
+
+        {code_template=>'use Zydeco;'},
+
+        {code_template=>'use Zydeco::Lite;'},
+
+        {code_template=>'use MooX::Press;'},
+
+        {code_template=>'use Moo;'},
     ],
 };
 

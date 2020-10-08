@@ -6,4 +6,4 @@ package Bencher::Scenarios::Z;
 # VERSION
 
 1;
-# ABSTRACT: Scenarios for benchmarking Z
+# ABSTRACT: Scenarios for benchmarking Z (and related modules)
