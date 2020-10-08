@@ -13,23 +13,25 @@ our $scenario = {
     summary => 'Measure startup overhead of Z',
     code_startup => 1,
     participants => [
-        {code_template=>'use Z;'},
-        {code_template=>'use Z -modern;'},
-        {code_template=>'use Z -compat;'},
-        {code_template=>'use Z -detect;'},
+        # the extra_modules is there so the Pod::Weaver plugin can show the used
+        # module's versions
+        {code_template=>'use Z;', extra_modules=>['Z']},
+        {code_template=>'use Z -modern;', extra_modules=>['Z']},
+        {code_template=>'use Z -compat;', extra_modules=>['Z']},
+        {code_template=>'use Z -detect;', extra_modules=>['Z']},
 
-        {code_template=>'use Type::Tiny;'},
-        {code_template=>'use Types::Standard;'},
+        {code_template=>'use Type::Tiny;', extra_modules=>['Type::Tiny']},
+        {code_template=>'use Types::Standard;', extra_modules=>['Types::Standard']},
 
-        {code_template=>'use Zydeco;'},
+        {code_template=>'use Zydeco;', extra_modules=>['Zydeco']},
 
-        {code_template=>'use Zydeco::Lite;'},
+        {code_template=>'use Zydeco::Lite;', extra_modules=>['Zydeco::Lite']},
 
-        {code_template=>'use MooX::Press;'},
+        {code_template=>'use MooX::Press;', extra_modules=>['MooX::Press']},
 
-        {code_template=>'use Moo;'},
+        {code_template=>'use Moo;', extra_modules=>['Moo']},
 
-        {code_template=>'use Moose;'},
+        {code_template=>'use Moose;', extra_modules=>['Moose']},
     ],
 };
 
