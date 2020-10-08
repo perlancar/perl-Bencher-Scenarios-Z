@@ -28,6 +28,8 @@ our $scenario = {
         {code_template=>'use MooX::Press;'},
 
         {code_template=>'use Moo;'},
+
+        {code_template=>'use Moose;'},
     ],
 };
 
